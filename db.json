@@ -1,0 +1,268 @@
+{
+  "listofapplicants": [
+    {
+      "Name": "John Doe",
+      "CGPA": 3.8,
+      "email": "johndoe@example.com",
+      "phone": "+1234567890",
+      "CV": "johndoe_cv.pdf",
+      "status": "Interview",
+      "id": "2c41"
+    },
+    {
+      "Name": "Jane Smith",
+      "CGPA": 3.9,
+      "email": "janesmith@example.com",
+      "phone": "+1234567891",
+      "CV": "janesmith_cv.pdf",
+      "status": "Approved",
+      "id": "8c07"
+    },
+    {
+      "Name": "Michael Brown",
+      "CGPA": 3.5,
+      "email": "michaelbrown@example.com",
+      "phone": "+1234567892",
+      "CV": "michaelbrown_cv.pdf",
+      "status": "Rejected",
+      "id": "f84f"
+    },
+    {
+      "Name": "Emily Davis",
+      "CGPA": 3.7,
+      "email": "emilydavis@example.com",
+      "phone": "+1234567893",
+      "CV": "emilydavis_cv.pdf",
+      "status": "Pending",
+      "id": "f593"
+    },
+    {
+      "Name": "David Wilson",
+      "CGPA": 3.6,
+      "email": "davidwilson@example.com",
+      "phone": "+1234567894",
+      "CV": "davidwilson_cv.pdf",
+      "status": "Approved",
+      "id": "2383"
+    },
+    {
+      "Name": "Sophia Johnson",
+      "CGPA": 3.85,
+      "email": "sophiajohnson@example.com",
+      "phone": "+1234567895",
+      "CV": "sophiajohnson_cv.pdf",
+      "status": "Rejected",
+      "id": "16c1"
+    },
+    {
+      "Name": "Liam Martinez",
+      "CGPA": 3.4,
+      "email": "liammartinez@example.com",
+      "phone": "+1234567896",
+      "CV": "liammartinez_cv.pdf",
+      "status": "Pending",
+      "id": "5e80"
+    },
+    {
+      "Name": "Olivia Garcia",
+      "CGPA": 3.75,
+      "email": "oliviagarcia@example.com",
+      "phone": "+1234567897",
+      "CV": "oliviagarcia_cv.pdf",
+      "status": "Approved",
+      "id": "0266"
+    },
+    {
+      "Name": "Noah Lopez",
+      "CGPA": 3.2,
+      "email": "noahlopez@example.com",
+      "phone": "+1234567898",
+      "CV": "noahlopez_cv.pdf",
+      "status": "Rejected",
+      "id": "8ccb"
+    },
+    {
+      "Name": "Emma Hernandez",
+      "CGPA": 3.9,
+      "email": "emmahernandez@example.com",
+      "phone": "+1234567899",
+      "CV": "emmahernandez_cv.pdf",
+      "status": "Approved",
+      "id": "4609"
+    },
+    {
+      "Name": "Mason Lee",
+      "CGPA": 3.3,
+      "email": "masonlee@example.com",
+      "phone": "+1234567800",
+      "CV": "masonlee_cv.pdf",
+      "status": "Pending",
+      "id": "24cc"
+    },
+    {
+      "Name": "Isabella Gonzalez",
+      "CGPA": 3.95,
+      "email": "isabellagonzalez@example.com",
+      "phone": "+1234567801",
+      "CV": "isabellagonzalez_cv.pdf",
+      "status": "Approved",
+      "id": "24b0"
+    }
+  ],
+  "listofjobs": [
+    {
+      "department": "Engineering",
+      "role": "Software Developer",
+      "start_date": "2024-01-10",
+      "end_date": "2024-12-31",
+      "id": "8cf8"
+    },
+    {
+      "department": "Human Resources",
+      "role": "HR Manager",
+      "start_date": "2023-12-15",
+      "end_date": "2024-11-30",
+      "id": "4fa4"
+    },
+    {
+      "department": "Sales",
+      "role": "Sales Executive",
+      "start_date": "2024-02-01",
+      "end_date": "2024-08-31",
+      "id": "4cf2"
+    },
+    {
+      "department": "Marketing",
+      "role": "Content Strategist",
+      "start_date": "2024-03-05",
+      "end_date": "2024-09-15",
+      "id": "eb5f"
+    },
+    {
+      "department": "Finance",
+      "role": "Accountant",
+      "start_date": "2023-11-20",
+      "end_date": "2024-06-30",
+      "id": "8dd7"
+    },
+    {
+      "department": "Engineering",
+      "role": "Quality Assurance Engineer",
+      "start_date": "2024-01-22",
+      "end_date": "2024-10-15",
+      "id": "2187"
+    },
+    {
+      "department": "Operations",
+      "role": "Operations Manager",
+      "start_date": "2023-12-28",
+      "end_date": "2024-07-31",
+      "id": "8f5e"
+    },
+    {
+      "department": "Engineering",
+      "role": "DevOps Engineer",
+      "start_date": "2024-02-10",
+      "end_date": "2024-08-20",
+      "id": "db17"
+    },
+    {
+      "department": "Customer Support",
+      "role": "Support Specialist",
+      "start_date": "2024-01-17",
+      "end_date": "2024-12-01",
+      "id": "d470"
+    },
+    {
+      "department": "Legal",
+      "role": "Legal Advisor",
+      "start_date": "2023-12-05",
+      "end_date": "2024-06-15",
+      "id": "24c3"
+    },
+    {
+      "department": "IT",
+      "role": "Network Administrator",
+      "start_date": "2024-01-25",
+      "end_date": "2024-09-10",
+      "id": "08ac"
+    },
+    {
+      "department": "Design",
+      "role": "UI/UX Designer",
+      "start_date": "2024-02-14",
+      "end_date": "2024-11-22",
+      "id": "37de"
+    },
+    {
+      "department": "Research and Development",
+      "role": "Research Scientist",
+      "start_date": "2024-01-30",
+      "end_date": "2024-12-10",
+      "id": "7163"
+    },
+    {
+      "department": "Engineering",
+      "role": "Frontend Developer",
+      "start_date": "2023-11-29",
+      "end_date": "2024-05-15",
+      "id": "e753"
+    },
+    {
+      "department": "Human Resources",
+      "role": "Recruitment Specialist",
+      "start_date": "2023-12-08",
+      "end_date": "2024-08-20",
+      "id": "d271"
+    },
+    {
+      "department": "Finance",
+      "role": "Financial Analyst",
+      "start_date": "2023-12-20",
+      "end_date": "2024-09-25",
+      "id": "9452"
+    }
+  ],
+  "users": [
+    {
+      "name": "John Doe",
+      "role": "Team Leader",
+      "email": "john.doe@example.com",
+      "phoneNo": "+1234567890",
+      "password": "team123",
+      "id": "3f39"
+    },
+    {
+      "name": "Jane Smith",
+      "role": "HR",
+      "email": "jane.smith@example.com",
+      "phoneNo": "+1234567891",
+      "password": "hrpassword",
+      "id": "80da"
+    },
+    {
+      "name": "Michael Brown",
+      "role": "Team Leader",
+      "email": "michael.brown@example.com",
+      "phoneNo": "+1234567892",
+      "password": "leaderpass",
+      "id": "95d8"
+    },
+    {
+      "name": "Emily Davis",
+      "role": "HR",
+      "email": "emily.davis@example.com",
+      "phoneNo": "+1234567893",
+      "password": "emilyhr",
+      "id": "9bc7"
+    },
+    {
+      "name": "Sophia Johnson",
+      "role": "Team Leader",
+      "email": "sophia.johnson@example.com",
+      "phoneNo": "+1234567894",
+      "password": "sophia123",
+      "id": "f020"
+    }
+  ]
+}

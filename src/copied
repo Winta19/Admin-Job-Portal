@@ -1,0 +1,155 @@
+{
+  /*import { useEffect, useState } from "react";
+
+export default function ListOfApplicants() {
+  const [listofapplicants, setlistofapplicants] = useState([]);
+
+  useEffect(() => {
+    // Fetch data from the JSON server
+    fetch("http://localhost:3000/listofapplicants")
+      .then((response) => response.json())
+      .then((data) => setlistofapplicants(data))
+      .catch((error) => console.error("Error fetching data:", error));
+  }, []);
+
+  return (
+    <div className="p-4">
+      <h1 className="text-2xl font-bold mb-4">List of Applicants</h1>
+      <table className="table-auto w-full border-collapse border border-gray-300">
+        <thead>
+          <tr className="bg-gray-200">
+            <th className="border border-gray-300 px-4 py-2">Name</th>
+            <th className="border border-gray-300 px-4 py-2">CGPA</th>
+            <th className="border border-gray-300 px-4 py-2">Email</th>
+            <th className="border border-gray-300 px-4 py-2">Phone</th>
+            <th className="border border-gray-300 px-4 py-2">CV</th>
+            <th className="border border-gray-300 px-4 py-2">Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          {listofapplicants.map((listofapplicants) => (
+            <tr
+              key={listofapplicants.email}
+              className="odd:bg-white even:bg-gray-100"
+            >
+              <td className="border border-gray-300 px-4 py-2">
+                {listofapplicants.Name}
+              </td>
+              <td className="border border-gray-300 px-4 py-2">
+                {listofapplicants.CGPA}
+              </td>
+              <td className="border border-gray-300 px-4 py-2">
+                {listofapplicants.email}
+              </td>
+              <td className="border border-gray-300 px-4 py-2">
+                {listofapplicants.phone}
+              </td>
+              <td className="border border-gray-300 px-4 py-2">
+                <a
+                  href={listofapplicants.CV}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-500 underline"
+                >
+                  View CV
+                </a>
+              </td>
+              <td className="border border-gray-300 px-4 py-2">
+                {listofapplicants.status}
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
+}
+*/
+}
+
+{
+  /*
+   //Sidebar Container
+
+<div
+className={`fixed top-16 left-0 h-full w-60 bg-gray-800  transition-transform duration-300 ${
+  isOpen ? "transform translate-x-0" : "transform -translate-x-full"
+}`}
+> */
+}
+
+login;
+
+import { Route } from "react-router-dom";
+import { Routes } from "react-router-dom";
+// import { Navigate } from "react-router-dom";
+
+import LogIn from "./pages/LogIn";
+import EditDepartment from "./pages/EditDepartment";
+import CreateNewUsers from "./pages/CreateNewUsers";
+import CreateNewLocation from "./pages/CreateNewLocation";
+import CreateNewDepartment from "./pages/CreateNewDepartment";
+import Departments from "./pages/Departments";
+import Locations from "./pages/Locations";
+import CreateNewJobForm from "./pages/CreateNewJobForm";
+import Jobs from "./pages/Jobs";
+import DashBoard from "./pages/DashBoard";
+import Users from "./pages/Users";
+import Settings from "./pages/Settings";
+// import TeamLeaderView from "./components/TeamLeaderView";
+// import HRView from "./components/HRView";
+// import ProtectedRoute from "./components/ProtectedRoute";
+//import Login from "./pages/LogIn";
+// import Home from "./pages/Home";
+// import Layout from "./components/Layout";
+// import Applicants from "./components/Applicants";
+// import { SidebarProvider } from "./SidebarContext";
+
+// function App() {
+//   const [isAuthenticated, setIsAuthenticated] = useState(false);
+
+//   useEffect(() => {
+//     // Check if user is logged in (e.g., token exists in localStorage)
+//     const token = localStorage.getItem("token");
+//     setIsAuthenticated(!!token);
+//   }, []);
+
+//   return (
+//     // <Routes><Route> </Route></Routes>
+//     {/* Login Page (Accessible to everyone) */}
+//     <Route path="/LogIn" element={<LogIn setIsAuthenticated={setIsAuthenticated} />} />
+
+//     {/* Protected Routes (Requires Authentication) */}
+//     {isAuthenticated ? (
+//     <SidebarProvider>
+//       <Layout>
+//         <Routes>
+//           <Route path="/" element={<Home />} />
+//           <Route path="/DashBoard" element={<DashBoard />} />
+
+//           <Route path="/Users" element={<Users />} />
+//           <Route path="/Settings" element={<Settings />} />
+//           <Route path="/Applicants" element={<Applicants />} />
+//           <Route path="/Jobs" element={<Jobs />} />
+//           <Route path="/CreateNewJobForm" element={<CreateNewJobForm />} />
+//           <Route path="/Departments" element={<Departments />} />
+//           <Route path="/Locations" element={<Locations />} />
+//           <Route path="/EditDepartment/:id" element={<EditDepartment />} />
+//           <Route
+//             path="/CreateNewDepartment"
+//             element={<CreateNewDepartment />}
+//           />
+//           <Route path="/CreateNewLocation" element={<CreateNewLocation />} />
+//           <Route path="/CreateNewUser" element={<CreateNewUsers />} />
+//           // <Route path="/LogIn" element={<LogIn />} />
+
+//         </Routes>
+//       </Layout>
+//     </SidebarProvider>
+//     (
+//       // Redirect to login if not authenticated
+//       <Route path="/*" element={<Navigate to="/LogIn" />} /> )}
+//   );
+// }
+
+// export default App;
