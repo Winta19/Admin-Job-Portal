@@ -117,11 +117,11 @@ export default function CreateNewDepartment() {
         setAbbreviation("");
         setFormVisible(false); // Hide the form
 
-        // Show the form again after 2 seconds
+        // Show the form again after 3 seconds
         setTimeout(() => {
           setFormVisible(true);
           setMessage(null); // Clear success message
-        }, 2000);
+        }, 3000);
       }
     } catch (error) {
       setError("Failed to create department. Please try again.");
